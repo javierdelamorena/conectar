@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head th:replace="layouts/fragmentoprincipal :: head">
+
+</head>
+
+<body class="bodyRutas">
+
+    <nav th:replace="layouts/fragmentoprincipal :: nav"></nav>
+    <div  class="container py-4" style="width: 244px;border-style: solid;border-radius: 10px; background-color: rgb(255, 255, 255);margin-top:2% ;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="margin: 10px;">
+            Ermita de San Isidro
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        
+                        Esta ermita es el edificio más antiguo conservado del pueblo. Es de origen románico y quizá
+                        fuera la iglesia primitiva; luego se convertiría en ermita, pero hay que tener en cuenta que,
+                        aunque san Isidro es un personaje de la primera mitad del siglo XII, plena Edad Media,
+                        no fue canonizado hasta 1622 y la bula que lo recogía apareció en 1724, siglo XVIII.
+                        En el edificio se puede apreciar la portada románica, de los siglos XII-XIII, los contrafuertes
+                        de la parte posterior y la piedra de una ventana cegada. Lo demás está muy reconstruido.
+                        Encima del arco de la portada, destaca la figura de un niño, muy probablemente resto de
+                        un capitel romano.
+                        El caz, la fragua, el toril y el transformador
+                        Al lado de la ermita destacaban tres edificios:
+                        El toril. En él se guardaba el toro, que era de propiedad municipal y era el semental para
+                        las cerca de 200 vacas que había en el pueblo. Se construyó aquí a principios del siglo XX.
+                        Estuvo antes en lo que luego fue escuela masculina y casa del maestro, y ahora es consultorio
+                        médico. Como escuela, se inauguró en 1920.
+                        Por cierto, lo que ahora es el centro de la Asociación Cultural fue antes Ayuntamiento,
+                        secretaría y escuela femenina.
+                        Adosado a la pared del toril, se encontraba el potro. Era una estructura de madera que servía
+                        para sujetar a las vacas y facilitar que se las pudiera herrar y curar cuando tenían problemas
+                        en las patas.
+                        El transformador. Edificio cuadrangular, de piedra y de unos dos metros de lado, que,
+                        lamentablemente, se demolió hace escasos años. La luz llegó desde muy pronto en el
+                        siglo XX del molino de Ligos y desde mediados de siglo, de Ayllón, por un tendido eléctrico que
+                        venía por Ligos también. Debió de impactar mucho porque se cantaba una copla, que decía:
+                        Las Cuevas no son Las Cuevas,
+                        que es una media ciudad,
+                        porque han traído de Ligos
+                        la luz eléctrica ya.
+                        La fragua. Era un edificio que estaba situada junto al caz, un canal que traía agua del río
+                        Pedro,
+                        desde el paraje conocido como La Vega, que discurría paralelo al río por su margen izquierda.
+                        Su función era triple: regar huertos y prados, servir a la fragua y hacer funcionar el molino.
+                        La fragua era de una enorme importancia en un pueblo agrícola en el que había decenas
+                        de mulos dedicados al trabajo. Tenía herrero permanente y se tienen noticias de ella desde
+                        el siglo XVI.
+                        Sirva de ejemplo el siguiente escrito municipal.
+                        Asiento del herrero, año 1760
+                        En el Lugar de las Cuevas, jurisdicción de la villa de Ayllón, en treinta días del mes de junio,
+                        deste
+                        año de mil setecientos y sesenta, empezó concejo, con asistencia de los Srs. Regidores, José
+                        Sanz
+                        y Miguel de Pablo, y la mayor parte de los vzos. juntos al son de campana tañida, como habemos
+                        de costumbre de nos ajuntar, para conferir y determinar cosas tocantes al servicio de Dios Ntro.
+                        Sr. y bien común y buen gobierno de dicho pueblo: la junta fue para ajustar herrero, para que
+                        nos
+                        apañe las rejas y demás aperos de los arados. Y se ajustó Don Pedro Ochoa, vzo. del Lugar de
+                        Santibáñez, en nombre de su hijo, Estanislao Ochoa, que es quien nos ha de servir. Y se le ha de
+                        dar por dicho trabajo a siente celemines de trigo por cada yunta que are todo el año y el que
+                        metiere
+                        al trabajo alguna res, desde mediado mayo en adelante, ha de pagar a la tercera parte y ha de
+                        venir
+                        a pañar dos días en cada semana que serán martes y viernes. Y empieza a servir desde Santiago
+                        de Julio que viene deste de la fecha, hasta dicho tal día, del año que viene del de sesenta y
+                        uno.
+                        Y se obliga de componer las herramientas de la fragua, dándole los materiales y ha de
+                        ¿encombrinar?
+                        un acha y una hazada, a cada vecino y endentar una hoz, por dicho salario. Y ha de dar un
+                        cordero que pese doce libras en canal y los despojos para dicho Concejo y un cántaro de vino de
+                        alboroque. Y con estas condiciones se obligaron dicho padre e hijo. Y por que conste, lo
+                        firmaron
+                        ambos de su nombre, junto con mí, el fiel de fechos de dicho Lugar, dicho día, ut supra. Y si
+                        hiciere
+                        una reja nueva, se le ha de dar 1 real y medio, de un par de velortas nuevas, cuatro cuartos y
+                        de
+                        una restola nueva, dos cuartos.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1" style="margin: 10px;">
+            Los Palomares
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        Un palomar es un edificio que alberga palomas, que era uno de los
+                        sustentos de las casas. En Cuevas de Ayllón llegó a haber casi una
+                        treintena, diseminados por el campo que rodea las inmediaciones
+                        del pueblo, tanto en la margen derecha del río como en la izquierda.
+                        Por suerte, aún se conservan varios. Sus formas eran y son variadas
+                        pero predomina el cilíndrico, cuando está aislado en el campo porque
+                        los adosados a la roca, en las cercanías del río o en lo alto del Barranco,
+                        son diferentes. Todos ellos son edificios singulares, que dan vistosidad
+                        y habría que intentar por todos los medios que siguieran perviviendo.
+                        Asimismo, en función de la geometría del edificio, aparece un tipo
+                        de tejado u otro, bien a una vertiente o bien con forma de opérculo
+                        del fruto de la amapola.
+                        Actualmente, hay una decena en perfecto estado de conservación.
+                        Había gran cantidad de palomas y predominaban la bravía y la zurita.
+                        La gente les echaba comida y les ponía agua en el palomar para
+                        asegurarse la mayor cantidad de pichones, crías que luego se guisaban.
+                        También se aprovechaban sus excrementos, llamados palomina, como
+                        abono de calidad en los huertos.
+                        Llegó a haber tal cantidad, que incluso hubo decretos de control, como la
+                        Real Orden de 1754 del Intendente General de Segovia que envió a
+                        todos los pueblos y que, entre otras cosas, decía:
+                        Las repetidas y noticias experiencias de los daños y perjuicios que caussan
+                        las palomas en los tiempos de las sementeras y continuadas quejas
+                        de los Pueblos y labradores han obligado al Consejo, en distintos tiempos,
+                        a dar las providencias más oportunas para sus remedios, teniendo
+                        acordado por punto general se las puedan tirar y matar libremente a qualesquier
+                        distancia y sin pena alguna, encontrándolas en los sembrados
+                        por el tiempo de ellos, especialmente en los meses de octubre y noviembre,
+                        pero sin poderse valer ni usar de redes, armadijos y otros artificios
+                        para matarlas. Y enterado ahora su Majestad de su total inobediencia y
+                        que cada día son mayores los daños y perjuicios expresados, por lo que
+                        se han aumentado los palomares y por la omisión y contemplación de las
+                        Justicias a sus dueños con su inevitable zelo al bien público y el notorio
+                        amor a sus vasallos, me ha mandado que, por ahora y sin perjuicio de
+                        tomar otras providencias mayores, zele sobre el puntual cumplimiento de
+                        la ya expresada del Consejo, dando las órdenes necesarias a tan importante
+                        fin…
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2" style="margin: 10px;">
+            Iglesia
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        Iglesia de Nuestra Señora del Olmo y San Juan Bautista
+                        La iglesia está estratégicamente situada entre los dos barrios, fuera
+                        de ambos núcleos. Su nombre advocativo es el de Nuestra Señora
+                        del Olmo y San Juan Bautista.
+                        Desde el punto de vista artístico no tiene excesivo valor. Consta de
+                        una sola nave y su origen puede remontarse a los siglos XV-XVI,
+                        quizá cuando la actual ermita de San Isidro amenazó ruina y cuando
+                        creció la población. Se conocen las reformas que se llevaron a cabo
+                        durante los siglos XVII-XVIII, hechas por albañiles de “la montaña”,
+                        es decir, santanderinos, que, por diversas razones, acabaron en varios
+                        pleitos.
+                        Las obras de ampliación se pueden observar perfectamente desde
+                        el exterior, y en una de las ventanas se puede leer “año de 1714”.
+                        Contiguo a la iglesia, se encuentra el cementerio.
+                        Estuvo muy extendida hasta la Edad Moderna la costumbre de enterrar
+                        a los muertos en el interior de los templos, hasta que fue prohibido
+                        por las leyes civiles de finales del siglo XVIII y principios del XIX,
+                        no sin encontrar una fuerte oposición por parte de la gente. En Cuevas,
+                        hasta hace relativamente poco tiempo, las mujeres se sentaban siempre
+                        en el mismo lugar cuando acudían a las prácticas religiosas y reconocían
+                        su sitio con la expresión "ésta es mi sepultura", porque, con toda
+                        probabilidad, en el pasado se situaban encima de donde había sido
+                        inhumado su familiar.
+                        El cementerio se encuentra adosado a la iglesia por su parte
+                        noroccidental. Las primeras noticias que tenemos referentes a la
+                        construcción de un campo santo, como se denominaba, externo a la
+                        iglesia, datan del año 1787, cuando la Real Orden del 3 de abril empezó
+                        a prohibir el enterramiento en lugares cerrados. En el libro de fábrica
+                        del momento se afirma textualmente: "Señalamiento del Campo Santo.
+                        Más dio en descargo 40 reales que se llevó el señor Corregidor, por venir
+                        a azer el señalamiento del Campo Santo".
+                        Ya a mediados del XIX, en 1850, se nos dan otros datos, como éste:
+                        Recibí de Raymundo Soria, Mayordomo de nuestra Santa Madre Iglesia,
+                        la cantidad de diez y ocho reales vellón, procedentes de la construcción
+                        de una cruz y una puerta para el Campo Santo de este pueblo. Y para
+                        que le sirva de abono, doy el presente, que firmo en Las Cuevas y Enero,
+                        23 de 1850. Firmado Lucas Martínez.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3" style="margin: 10px;">
+            Plaza Mayor
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+
+                        Desde la segunda mitad del siglo XIX, el pueblo fue creciendo de manera
+                        ininterrumpida en población. Esto obligó a que el casco urbano se
+                        extendiera. Lo hizo en sentido ascendente hacia la zona que se
+                        denomina El Castillo. En fotografía aérea o incluso desde un lugar
+                        elevado, se puede apreciar cuál era el núcleo más primitivo, que se sitúa
+                        en la zona más cercana al río, entre las calles Pellejeros y la plaza actual.
+                        Esta plaza se configuró en los años cuarenta del siglo XX y todos los
+                        mayores recuerdan aún cuál fue la última casa que se derrumbó para
+                        ampliarla. Incluso hay alguna fotografía de las obras del momento.
+                        La plaza originaria se situaba en medio del pequeño poblado y se conoce
+                        con el nombre de Plazuela, a la que se accede por una calle empinada,
+                        tiene un callejón más de salida y otro que, con el tiempo, fue cerrado.
+                        La Plazuela era algo más extensa en su origen pero, por razones de
+                        intercambio cuando se modeló la plaza actual, se construyó un pequeño
+                        edificio, como se puede observar a simple vista.
+                        Entre la Plazuela y la Plaza Mayor se encontraba la escuela, construida
+                        en 1920 y a la derecha de la plaza, la antigua casa parroquial o Casa del
+                        curato, levantada en 1814, con un coste de 31.311 reales de vellón.
+                        Muy típicos son los adornos que aparecen en las fachadas de las casas.
+                        Todavía se conservan varias, bien por encima de algunas ventanas
+                        de la fachada principal o justo debajo del alero del tejado. Son de
+                        representación solar, iguales a las muy comunes en muchos lugares
+                        de Sicilia. En la cara oeste del castillo de Gormaz también se conserva
+                        una con idéntico dibujo que las de Cuevas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop4" style="margin: 10px;">
+            Las pozas
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+
+
+                        Las pozas están situadas entre la iglesia y los arrabales del pueblo,
+                        justo debajo del camino llamado La Calzada, que lleva al barrio de Abajo.
+                        Son tres pilones que tenían la función de abrevadero de animales
+                        mayores: vacas, burros y mulos.
+                        Estaban muy cuidados y cada día los vecinos llevaban allí a beber agua
+                        a sus animales. Esa agua no tenía otra función.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop5" style="margin: 10px;">
+            El Molino
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        El molino está situado en el barrio de Abajo, en la margen izquierda del
+                        río Pedro y al final del caz, canal de agua que venía de la parte de arriba
+                        del río y que, entre otras funciones como riego y fragua, servía para
+                        mover la piedra del molino.
+                        Las noticias del molino de agua se remontan al siglo XVI, cuando se
+                        nos dice a qué familia pertenecía. Con el tiempo, pasó por diversas
+                        manos, incluida la iglesia de Ayllón, hasta que, ya en el siglo XIX,
+                        pasó a pertenecer al Ayuntamiento, que lo sacaba a subasta.
+                        Era un molino modesto pero de gran popularidad y tenía mucho trabajo.
+                        Cada vecino que iba a moler pagaba mediante lo que se llamaba
+                        la “maquila”, que consistía en que el molinero se quedaba con un
+                        porcentaje del grano que llevaba cada vecino.
+                        Cuando el molino pasó a manos del pueblo y se redimieron los censos
+                        que tenía y se dejaron de decir misas para algunos de sus antiguos
+                        poseedores, el municipio destinó esos bienes a caridad. Esto se hacía el
+                        día de la segunda fiesta del pueblo, el 11 de junio, día de San Bernabé.
+                        Ese día llegaban pobres de toda la comarca y se les daba lo que se
+                        conocía como la “caridad”: galletas, queso, vino y otras cosas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop6" style="margin: 10px;">
+            Puentes
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        En Cuevas de Ayllón había tres puentes sobre el río Pedro, que comunicaban
+                        su parte noreste.
+                        El puente de la Fragua conectaba con el camino de Liceras y las tenadas
+                        (majadas) de El Portillo. Se reformó por primera vez con materiales modernos
+                        en los años sesenta, pero una riada lo derrumbó al poco tiempo. Fue un acto
+                        heroico que, con enormes troncos haciendo de palanca, los hombres del pueblo
+                        lograran levantarlo de nuevo, haciendo suyo el principio de Arquímedes del punto
+                        de apoyo. Sobre el puente se conserva bastante documentación municipal.
+                        Por este puente pasó la primera carretera del pueblo y, a pesar de haberse
+                        construido uno contiguo nuevo, todavía sigue en pie, en muy buen estado,
+                        se usa.
+                        El puente de Las Cabras es el único de los tres que ya no existe. Desapareció
+                        hace unos años. Conectaba el pueblo por la calle de la Iglesia, las pozas y los
+                        huertos con el camino que hoy es carretera hacia Liceras. Quizá por su situación
+                        algo peculiar, tenía dedicada la siguiente canción romance:
+                        El cura y la criada (á.a)
+                        Estaba don Juan muy malo en la cama,
+                        durai duraina, muy malo en la cama.
+                        A la media noche llamaba a su ama,
+                        durai duraina, llamaba a su ama.
+                        -¿Qué quedrá ahora el cura que a estas horas llama?
+                        durai duraina, que a estas horas llama.
+                        -Coge tú el botijo y vete a por agua,
+                        durai duraina, y vete a por agua.
+                        Puente de las Cabras la picó una rana,
+                        durai duraina, la picó una rana.
+                        A los nueve meses la creció la panza,
+                        duari duraina, la creció la panza.
+                        Y parió un Juanillo hasta con sotana,
+                        durai duraina, hasta con sotana.
+                        Una obra más de las que en el pueblo se cantaban sobre curas y mujeres.
+                        La gracia y la normalidad con las que se interpretaban, demostraban lo asentada
+                        que estaba en esa sociedad la idea de que los curas, con necesidades humanas
+                        como todos, vivían la contradicción del ser y del deber ser.
+                        El puente del Barrio de Abajo se sitúa cerca del antiguo molino y, como su
+                        nombre indica, también al lado del barrio de Abajo. Conectaba directamente
+                        este barrio con la fuente y los lavaderos.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop7" style="margin: 10px;">
+            Despoblado de Sotocarros
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+
+                        Sotocarros fue un poblado que desapareció a mediados del siglo XV.
+                        Estaba situado en el paraje conocido actualmente como de San Andrés,
+                        probablemente porque era el patrón de su iglesia. Su término municipal
+                        se sitúa en la parte suroriental, entre Noviales, Estebanvela, el arroyo
+                        de Valdegalindo y los límites del monte de encina, conocido como
+                        Montecillo. Alberga la famosa dehesa de Valdepeñas, con un hermoso
+                        robledal y un gran prado en su parte final, conocido como Prado Sanz.
+                        Esta dehesa sigue proporcionado leña a los vecinos y fue lugar de pasto
+                        de cerca de doscientas vacas, que moraban allí durante seis meses,
+                        desde San Isidro a Todos los Santos, cuidadas por un vaquero de
+                        contrato oficial, que se albergaba en un chozo construido ex profeso
+                        para él.
+                        Tras su despoblación, Sotocarros pasó a formar parte de Cuevas
+                        de Ayllón, por escritura de censo enfitéutico firmada en 1473 por los
+                        representantes del Marqués de Villena y del Concejo de Cuevas
+                        de Ayllón. Este hecho marcó totalmente, para bien y para mal, la historia
+                        de Cuevas durante cerca de quinientos años, hasta que fue
+                        definitivamente redimido en los años cuarenta del siglo pasado.
+                        La documentación que generó fue enorme y se ha podido reconstruir,
+                        como toda la historia de Cuevas de Ayllón, en el libro Cuevas de Ayllón
+                        Historia-Tradición-Cultura, de Silvano Andrés de la Morena, publicado
+                        en 2020 por la editorial Huerga y Fierro.
+                        A la entrada de la Dehesa de Valdepeñas, se conserva todavía la tejera
+                        que tenía el municipio y que funcionó hasta mediados del siglo XX.
+                        Obra sencilla que suministraba el material necesario de teja árabe para
+                        los edificios del pueblo, desde casas a palomares o tenadas (majadas
+                        de las ovejas). Antes estuvo situada cerca del pueblo, en un paraje que,
+                        significativamente, lleva el topónimo de Tejera Vieja.
+                        Se adjunta el siguiente texto, contrato del tejero, que ofrece algunos
+                        aspectos curiosos.
+                        Contrato del Tejero, año de 1741
+                        En el lugar de las Cuevas, jurisdicción de la villa de Ayllón, en diez días
+                        del mes de noviembre de mil setecientos y cuarenta y un años; en
+                        público concejo, con asistencia de los Srs. Regidores José Sanz y Pedro
+                        de la Morena, estando juntos la mayor parte de los vecinos a campana
+                        tañida, como lo tenemos de uso y de costumbre, para conferir cosas
+                        tocantes al servicio de Dios Nuestro Señor y bien común y buen
+                        gobierno de dicho pueblo, especialmente para coger tejero. Para que
+                        haga teja el año que viene de 1742 con las condiciones siguientes: y se
+                        cogió a Juan de Iriarte, del Reyno de Navarra, natural de la villa de
+                        Irañeta, con la condición que ha de dar al Concejo diez reales de cada
+                        hornada de teja que hiciere y un millar de teja por toda la temporada
+                        y un cántaro de vino de alboroque...cuando los regidores que fueren se
+                        lo pidan y el limpiar el horno y rebocarle las arcillas y las paredes por
+                        dentro del Concejo, le ha de replenar de tierra por fuera...por ser así para
+                        que conste de verdad lo firmó de su nombre y yo Frco. Vicente e por
+                        ausencia del escribano de fechos, en dicho día, mes y año = Y ha de
+                        traer el marco a la medida del de Valvieja.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop8" style="margin: 10px;">
+            El Hoyo
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        Es esta una magnífica ruta de paisaje. Aquí, el río Pedro se hunde en un
+                        cañón muy singular que recorre también parte del término de Ligos.
+                        El Hoyo es un lugar de vegetación exuberante, que se ha multiplicado
+                        desde los años sesenta que empezó la emigración a la ciudad. Por aquí,
+                        como casi por todo su recorrido, el río ha vuelto a su naturaleza más
+                        primitiva y es ella, la Naturaleza, no ya la acción humana, la que marca
+                        la configuración. El chopo triunfa pero también todo tipo de arbusto
+                        y de hierbas.
+                        Junto a la vegetación, se puede admirar el paisaje blanco de la Peña,
+                        en su margen derecha, que limita Cuevas de Ayllón y Ligos y en cuya
+                        parte superior sigue el castro prerromano, que conserva muy identificada
+                        la muralla que le protegía.
+                        El Hoyo alberga, en su margen izquierda, la popular Fuente de la
+                        Berrera, manantial casi a pie de suelo. Frente a ella, al otro lado del río,
+                        en pleno risco, está la afamada Cueva de la Mora. Y antes, justo al
+                        entrar en pleno cañón, un barranco de tierra blanca, que se convirtió casi
+                        en mina en el pasado pues de aquí se cogía el material para pintar las
+                        paredes del interior de las casas, enjalbegar, como se dice aquí.
+                        Siguiendo la ruta marcada, se llega al molino de Ligos, importante
+                        edificio y en el pueblo se puede admirar su iglesia románica, la de
+                        San Juan Bautista, del siglo XII, declarada Bien de Interés Cultural.
+                        Pero, además, el Hoyo acoge una importante colonia de buitres
+                        leonados, que se extiende también a lo largo del recorrido del río Pedro
+                        en su zona de Cuevas de Ayllón, desde la Peña Zorrera hasta el paraje
+                        denominado La Vega. El buitre leonado es leyenda aquí, siempre existió
+                        y, a pesar de los cambios, resistió los momentos más difíciles de la
+                        despoblación. Antes de llegar al Hoyo, en un paraje denominado
+                        Bunviejo, se dejaban los animales muertos, desde mulos a burros,
+                        y allí disfrutaban los buitres del festín.
+                        Además del buitre, el río Pedro es hogar del picapinos, picante en la
+                        zona; de la oropéndola, el verderón, la grajilla, la picaraza (urraca),
+                        el estornino…
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop9" style="margin: 10px;">
+            La Peña Zorrera
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                        La Peña Zorrera ha sido siempre el peñasco más cercano, popular
+                        y admirado por las gentes de Cuevas de Ayllón. Está situado justo
+                        a la salida del pueblo hacia Liceras, cuyo camino conecta también con
+                        el Monte y El Portillo. Peña rojiza, como gran parte de las de alrededor
+                        y es la misma en la que está asentado el núcleo urbano. Aquí anidaban
+                        buitres (abantos, que se llaman por estas tierras), vencejos y grajillas.
+                        También abundaban las palomas, que tenían su casa en los cuatro
+                        palomares incrustados en la roca, de los que aún quedan tres.
+                        En la memoria popular quedó grabado el último desprendimiento de una
+                        enorme roca. Cayó en los años treinta del siglo pasado en el mes de
+                        agosto, cuando todo el pueblo estaba en las eras, trillando la mies recién
+                        segada. El estruendo debió de ser tan grande que dejó paralizados
+                        a todos. Varias de las rocas desprendidas se pueden observar a orillas
+                        del camino.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop10" style="margin: 10px;">
+            El Pingano
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop10" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                      
+                        El Pingano es uno de los cerros más populares del pueblo, tanto por
+                        la cercanía como por las vistas que regala. Es como un balcón donde
+                        acaba el Monte en una de sus partes. Desde ahí, se puede observar
+                        el pueblo, todo El Portillo, toda la parte del término municipal situado
+                        en la margen izquierda del río Pedro, la Cabeza de San Juan (otro de
+                        los cerros populares y singulares) y la frondosa ribera.
+                        Más a lo lejos, desde el suroeste al oeste, la línea montañosa de la
+                        Sierra de Ayllón, donde sobresale el pico de Grado, que junta y separa
+                        las provincias de Soria, Segovia y Guadalajara. Meseta y sierra, con los
+                        colores de la Castilla de siempre, que cambian a lo largo del año, del
+                        verde cereal de la primavera tardía al blanco de los rastrojos de agosto
+                        o al rojo intenso de las sementeras.
+                        Si al lado queda el encinar del Monte, enfrente, hacia el sur, saluda
+                        La Matilla, el encinar de Estebanvela, pueblo segoviano que limita con
+                        Cuevas de Ayllón.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop11" style="margin: 10px;">
+            El Portillo y las tenadas
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-lg" id="staticBackdrop11" data-bs-backdrop="static" data-bs-keyboard="false"
+            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                       
+                        Según la Real Academia de la Lengua, portillo es un sustantivo con
+                        varias acepciones. Casi todas cuadrarían en este caso. Es un paso,
+                        es una entrada y salida, es un camino angosto entre dos alturas…
+                        El Portillo, topónimo muy descriptivo, era uno de los parajes donde
+                        se situaban más tenadas, es decir, majadas de ovejas. Había una
+                        quincena y aún se conservan varias en buen estado. Otro paraje que
+                        también contaba con muchas, era el de Valdegalino.
+                        La mayoría de vecinos tenía su rebaño de churras y ojaladas. En el
+                        pasado también hubo merinas, según documentación de los siglos XV
+                        y XVI y hasta principios del siglo XX se usaban, delimitaban
+                        y respetaban, las cañadas, en realidad, ramales de la Cañada Real
+                        Soriana Occidental .
+                        La oveja era uno de los elementos básicos de la economía: carne, lana
+                        y estiércol para abono de los cereales.
+                        Las ovejas se esquilaban durante el mes de junio y el día del esquileo
+                        era una auténtica fiesta. A quien pasaba por el lugar se le invitaba
+                        a pastas, anís, algún trago de vino en bota y moscatel.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+   
+    <footer th:replace="layouts/fragmentoprincipal :: footer"></footer>
+
+
+</body>
+
+</html>
