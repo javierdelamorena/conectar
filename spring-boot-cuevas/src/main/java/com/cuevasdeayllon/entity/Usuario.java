@@ -15,6 +15,8 @@ import javax.persistence.PrePersist;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotEmpty;
 
 import org.springframework.web.bind.annotation.SessionAttributes;
 
@@ -29,13 +31,19 @@ public class Usuario implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="id_usuario")
 	private int idUsuario;
+	@NotEmpty
 	private String nombre;
 	private String apellido1;
 	private String apellido2;
+	@NotEmpty
+	@Email
 	private String email;
+	@NotEmpty
 	private String password;
+	@NotEmpty
 	private String foto;
 	private String roles;
+	@NotEmpty
 	private String direccion;
 	@Column(name="create_at")
 	@Temporal(TemporalType.DATE)

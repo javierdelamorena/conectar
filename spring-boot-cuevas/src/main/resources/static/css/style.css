@@ -13,12 +13,12 @@
 .bodyRutas{
 	background-image: url("20.jpg");
 	background-size: cover;
-	background-repeat: repeat;
+	background-repeat: no-repeat;
 	margin: 0;
 	height: 100vh;
 }
 .bodyHistoria{
-	background-image: url("18.png");
+	background-image: url("18.jpg");
 	background-size: cover;
 	background-repeat: repeat;
 	margin: 0;
@@ -71,13 +71,13 @@
 
 }
 .caja { 
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-family: sans-serif;
     color: #0b0b0b;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
-	font-weight: bolder ;
+    /* font-weight: bolder; */
     text-align: left;
-    background: #889ccf;
+    background: #ce835e;
     margin: 40px;
     overflow: hidden;
     padding: 20px;
@@ -85,7 +85,7 @@
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
     border: 2px solid #040404;
-	width: 70%;
+    width: 70%;
     margin-left: 14%;}
 #historia{
 	font-family: Arial, Helvetica, sans-serif;
@@ -114,4 +114,9 @@
 	height: 500px;
 	width: 900px;
 
+}
+#botonesRutas{
+	margin: 10px;
+    background-color: #99cd52;
+    height: 100px;
 }
